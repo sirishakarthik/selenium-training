@@ -23,7 +23,7 @@ public class dd {
 
 		WebDriver driver = new ChromeDriver();
 
-		driver.get("https://www.google.com");
+		driver.get("https://www.google.co.in");
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		// js.executeScript("window.scrollBy(0,600)");
 		driver.findElement(By.xpath("//div/ul/li[5]")).click();
